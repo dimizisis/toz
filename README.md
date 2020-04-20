@@ -45,7 +45,7 @@ The metrics refer to the two classes that were modified.
 |```Initial Code```|  7  |  0  |  1  |  12 |  64 |   0  |  1  |  6  |
 |  ```New Code```  | 12  |  0  |  1  |  21 |  38 |  20  |  1  |  6  |
 
-## Room.class
+### Room.class
 
 |                  |  WMC | DIT | NOC | CBO | RFC | LCOM |  Ce |  NPM |
 |------------------|:----:|:---:|:---:|:---:|:---:|:----:|:---:|:----:|
