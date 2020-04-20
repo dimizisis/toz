@@ -1,0 +1,1 @@
+java -jar C:\Users\Dimitris\Desktop\ckjm-1.9.jar C:\Users\Dimitris\Desktop\classes\*.class
