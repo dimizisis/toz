@@ -1,6 +1,0 @@
-projectKey=com.dimi.toz:TowerOfZaldagor
-serverUrl=http://localhost:9000
-serverVersion=8.2.0.32929
-dashboardUrl=http://localhost:9000/dashboard?id=com.dimi.toz%3ATowerOfZaldagor
-ceTaskId=AXGT4bSv4yUak9U-JBR7
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXGT4bSv4yUak9U-JBR7
