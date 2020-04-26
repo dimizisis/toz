@@ -39,13 +39,10 @@ public class EventRoom extends Room
 	private ArrayList<RoomEvent> events;
 	private Quest quest;
 
-//	private Map<ERoomEventAction, Void> commandMap = new HashMap<ERoomEventAction, Void>(); /**************************** contains ACTION/CONDITION, COMMAND ****************************/
-
 	public EventRoom()
 	{
 		super();
 		events = new ArrayList<RoomEvent>();
-//		fillCommandMap();	/**************************** command init ****************************/
 	}
 
 	public void evaluateCondition()
@@ -53,16 +50,6 @@ public class EventRoom extends Room
 		for (int i = 0; i < events.size(); i++)
 			new CommandExecutor(events, i, false).executeCommand(events.get(i).getCondition()); /**************************** Instead of if else ****************************/
 	}
-
-//	private void evaluateAction(int index)
-//	{
-//		new CommandExecutor(events, index, true).executeCommand(events.get(index).getAction()); /**************************** Instead of if else ****************************/
-//		events.remove(index);
-//		if (events.size()>0)
-//		{
-//			evaluateCondition();
-//		}
-//	}
 
 	public ArrayList<RoomEvent> getEvents() {
 		return events;
